@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=75.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-cli-example"
+version = "0.0.1"
+authors = [
+  { name="Danny Squire", email="danny.squire@ttu.edu" },
+]
+description = "An example package"
+readme = "README.md"
+requires-python = ">=3.11.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
